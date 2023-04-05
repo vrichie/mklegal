@@ -42,7 +42,7 @@ export default function Team() {
               id="tile"
               data-aos="fade-up"
               data-aos-delay="50"
-              className={` rounded-xl relative overflow-hidden h-[400px] md:w-[400px] w-full ${
+              className={` rounded-xl relative overflow-hidden h-[400px]  lg:w-[400px] w-full ${
                 tiles.length === index + 1 ? "mb-0" : " md:mb-0 mb-5"
               }  
               ${index == 1 ? "lg:mr-[10%]" : " "} 
@@ -53,7 +53,7 @@ export default function Team() {
               {" "}
               <span
                 // id="tile-image"
-                className=" h-full"
+                className=" h-full w-full"
               >
                 <img
                   src={tile.image}

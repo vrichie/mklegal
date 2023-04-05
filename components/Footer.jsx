@@ -3,15 +3,15 @@ import React from "react";
 export default function Footer() {
   return (
     <footer className="w-full bg-slate-900 text-white py-20 flex items-center justify-center">
-      <div className="md:w-4/5 w-11/12 flex items-start justify-between md:flex-row flex-col ">
-        <span className="">
+      <div className="md:w-4/5 w-11/12 flex items-start justify-between lg:flex-row flex-col ">
+        <span className=" lg:w-1/3 w-full">
           <h1 className="text-2xl " data-aos="fade-up" data-aos-delay="0">
             Mkl legal
           </h1>
           <br />
           <br />
           <div
-            className="md:w-[400px] w-full relative"
+            className="lg:w-[400px] w-full relative"
             data-aos="zoom-in"
             data-aos-delay="100"
           >
@@ -37,7 +37,7 @@ export default function Footer() {
           <br />
           <br />
         </span>
-        <span className="md:w-2/3 w-full flex items-start justify-between h-fit flex-col">
+        <span className="lg:w-2/3 w-full flex items-start justify-between h-fit flex-col">
           <div className="w-full flex md:flex-row flex-col items-start justify-between">
             <span>
               <h1 className="text-4xl " data-aos="fade-up" data-aos-delay="0">
@@ -88,7 +88,11 @@ export default function Footer() {
             </h1>
             <br />
 
-            <div className="flex text-xl text-white">
+            <div
+              className="flex text-xl text-white"
+              data-aos="fade-up"
+              data-aos-delay="75"
+            >
               <i class="fa-brands fa-facebook"></i>&nbsp;&nbsp;
               <i class="fa-brands fa-twitter"></i>&nbsp;&nbsp;
               <i class="fa-brands fa-instagram"></i>&nbsp;&nbsp;
@@ -101,7 +105,11 @@ export default function Footer() {
             </p>
           </div>
           <br />
-          <div className="w-full border-t-[1px] border-slate-50/20">
+          <div
+            className="w-full border-t-[1px] border-slate-50/20"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <br />
             <p className="text-white">
               &copy; 2023 MK Legal. All rights reserved.

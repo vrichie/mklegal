@@ -37,14 +37,17 @@ h2 {
 h3 {
   font-size: 30px;
 }
+.p-color {
+  color: #0d8182;
+}
 button {
   padding: 8px 32px;
   color: white;
-  background-color: #1e3a8a;
+  background-color: #0d8182;
 }
 p {
   font-size: 17px;
-  color: rgb(27, 27, 27);
+  color: rgb(0, 0, 0);
 }
 
 #tile {

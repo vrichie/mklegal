@@ -5,7 +5,7 @@ const About = () => {
     <div className="w-full relative flex items-center py-20 justify-center">
       <section className="md:w-2/3 w-11/12  flex items-center  justify-between lg:flex-row flex-col-reverse py-20 md:px-0 ">
         <span className=" lg:w-1/2 w-full text-center">
-          <h2 data-aos="fade-up" data-aos-delay="0">
+          <h2 data-aos="fade-up" data-aos-delay="0" className="p-color">
             The Difference Is In Our <i>Approach</i>{" "}
           </h2>
           <br />

@@ -3,7 +3,7 @@ import React from "react";
 export default function Testimonial() {
   const testimony = [
     {
-      name: "John Doe",
+      name: "Alex Wamuyu",
       text: "I was in a difficult child custody battle and the team at the law firm helped me every step of the way. Their expertise and guidance made all the difference.",
     },
     {
@@ -20,7 +20,7 @@ export default function Testimonial() {
     <div className="w-full py-20 my-20 flex items-center justify-center ">
       <div className="w-11/12 flex items-center justify-center flex-col">
         <span className="text-center">
-          <h2 data-aos="fade-up" data-aos-delay="0">
+          <h2 data-aos="fade-up" className="p-color" data-aos-delay="0">
             {" "}
             <i>Testimonials</i> From Clients
           </h2>
@@ -37,19 +37,19 @@ export default function Testimonial() {
               key={index}
               data-aos="fade-up"
               data-aos-delay="100"
-              className={`lg:w-1/4 w-full bg-gradient-to-r from-slate-50 to-slate-100  p-5 flex items-center flex-col text-center rounded-xl ${
+              className={`lg:w-1/4 w-full bg-gradient-to-r from-slate-50 to-cyan-50  p-5 flex items-center flex-col text-center rounded-xl ${
                 testimony.length === index + 1 ? "mb-0" : "lg:mb-0 mb-5"
               }`}
             >
-              <i class="fa-solid fa-quote-left text-blue-400 text-lg"></i>
+              <i class="fa-solid fa-quote-left text-cyan-900 text-lg"></i>
               <br />
               <br />
               <p>{test.text}</p>
               <br />
               <br />
-              <div className="text-red-400 bg-slate-400 w-full h-[1px]" />
+              <div className=" bg-cyan-900 w-full h-[1px]" />
 
-              <h4 className="text-lg mt-5 text-blue-600">
+              <h4 className="text-lg mt-5 font-medium text-cyan-900">
                 - &nbsp;
                 {test.name}
               </h4>

@@ -35,12 +35,13 @@ const Navbar = () => {
     >
       <div className="lg:max-w-[1240] md:w-4/5 w-11/12 m-auto flex justify-between items-center p-6 text-white">
         <Link href="/">
-          <h1
+          {/* <h1
             // style={color ? transparent : opaque}
             className={`text-white/80 font-semibold ease-in text-xl`}
           >
-            MK Legal
-          </h1>
+            
+          </h1> */}
+          <img src="./logo_black.png" className="h-[40px]" alt="" />
         </Link>
         {/* <ul
           // style={color ? opaque : transparent}

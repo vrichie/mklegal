@@ -1,28 +1,35 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-slate-900 text-white py-20 flex items-center justify-center">
+    <footer className="w-full bg-cyan-900 text-white py-20 flex items-center justify-center">
       <div className="md:w-4/5 w-11/12 flex items-start justify-between lg:flex-row flex-col ">
         <span className=" lg:w-1/3 w-full">
-          <h1 className="text-2xl " data-aos="fade-up" data-aos-delay="0">
-            Mkl legal
-          </h1>
+          <Link href="/">
+            <h1
+              className="text-2xl font-semibold "
+              data-aos="fade-up"
+              data-aos-delay="0"
+            >
+              Mkl legal
+            </h1>
+          </Link>
           <br />
           <br />
           <div
-            className="lg:w-[400px] w-full relative"
+            className="lg:w-[350px] w-full relative"
             data-aos="zoom-in"
             data-aos-delay="100"
           >
             <iframe
               width="100%"
               height="440"
-              src="https://maps.google.com/maps?width=400&amp;height=440&amp;hl=en&amp;q=nairobi%2C%20kenya+(Title)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed"
-              frameborder="0"
+              src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=%20Two%20Rivers%20Mall%2C%20Nairobi%20Kenya+(Mk%20legal)&amp;ie=UTF8&amp;t=&amp;z=12&amp;iwloc=B&amp;output=embed"
+              frameBorder="0"
               scrolling="no"
-              marginheight="0"
-              marginwidth="0"
+              marginHeight="0"
+              marginWidth="0"
             ></iframe>
             <div id="rwe">
               <small id="rew">
@@ -44,17 +51,50 @@ export default function Footer() {
                 Contact Details
               </h1>
               <br />
-              <p className="text-white" data-aos="fade-up" data-aos-delay="25">
-                123 Anywehere St <br />
-                Nairobi ,Kenya
-              </p>
+              <div
+                className="flex items-center text-white"
+                data-aos="fade-up"
+                data-aos-delay="25"
+              >
+                <i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;
+                <p className="text-slate-50">
+                  1st Floor Southern Tower <br />
+                  Two Rivers Nairobi ,Kenya
+                </p>
+              </div>
               <br />
-
-              <p className="text-white" data-aos="fade-up" data-aos-delay="50">
-                (254) 334 23432
-                <br />
-                info@mkl.com
-              </p>
+              <div
+                className="text-white flex items-center"
+                data-aos="fade-up"
+                data-aos-delay="50"
+              >
+                <i class="fa-solid fa-phone"></i>&nbsp;&nbsp;
+                <a href="tel:+254723233994">
+                  <p className="text-slate-50">(254) 723233994</p>
+                </a>
+              </div>
+              <br />
+              <div
+                className="text-white flex items-center"
+                data-aos="fade-up"
+                data-aos-delay="50"
+              >
+                <i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;
+                <a href="mailto:makena@mklegal.co.ke">
+                  <p className="text-slate-50">makena@mklegal.co.ke</p>
+                </a>
+              </div>
+              <br />
+              <div
+                className="text-white flex items-center"
+                data-aos="fade-up"
+                data-aos-delay="50"
+              >
+                <i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;
+                <a href="mailto:info@mklegal.co.ke">
+                  <p className="text-slate-50">info@mklegal.co.ke</p>
+                </a>
+              </div>
 
               <br />
               <br />
@@ -108,7 +148,7 @@ export default function Footer() {
           <div
             className="w-full border-t-[1px] border-slate-50/20"
             data-aos="fade-up"
-            data-aos-delay="100"
+            data-aos-delay="0"
           >
             <br />
             <p className="text-white">

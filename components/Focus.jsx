@@ -29,7 +29,7 @@ const tiles = [
 
 const Focus = () => {
   return (
-    <div className="bg-gradient-to-r from-slate-500 to-slate-900  text-white py-20 lg:px-32 flex items-center justify-center">
+    <div className="bg-gradient-to-r from-cyan-700 to-cyan-900 text-white py-20 lg:px-32 flex items-center justify-center">
       <div className="md:w-full w-11/12 flex items-center lg:flex-row flex-col justify-between  md:gap-10">
         <h2
           className="text-6xl  text-center"
@@ -39,14 +39,13 @@ const Focus = () => {
           What we <br />
           <i>Focus</i> On
         </h2>
-        <div className="w-full lg:w-2/3 flex flex-wrap items-center lg:justify-between justify-center md:flex-row flex-col mt-10">
+        <div className="w-full lg:w-2/3 flex flex-wrap items-center lg:justify-between justify-center lg:flex-row flex-col mt-10">
           {tiles.map((tile, index) => (
             <div
               key={index}
               id="tile"
               data-aos="fade-up"
-              data-aos-delay="50"
-              className={`w-full md:w-[400px] h-[400px] bg-gradient-to-r from-white to-slate-100  rounded-xl overflow-hidden
+              className={`w-full md:w-[300px] h-[300px] bg-gradient-to-r from-white to-cyan-50  rounded-xl overflow-hidden
               ${index == 1 ? "lg:mr-[10%]" : " "} 
               ${index == 2 ? "lg:ml-[10%]" : " "} 
               ${
@@ -57,7 +56,7 @@ const Focus = () => {
                 id="tile-text"
                 className="w-full h-full flex flex-col items-center justify-center  "
               >
-                <h3 className="text-slate-800">{tile.name}</h3>
+                <h3 className="text-cyan-900 font-normal">{tile.name}</h3>
                 <br />
 
                 <p>{tile.description}</p>

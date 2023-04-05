@@ -22,7 +22,7 @@ export default function Services() {
         <br />
 
         <div className="w-11/12 flex lg:flex-row flex-col items-start justify-between">
-          <h2 data-aos="fade-up" data-aos-delay="50">
+          <h2 data-aos="fade-up" data-aos-delay="50" className="p-color">
             Our Main <i>Services</i>{" "}
           </h2>
           <span className="lg:w-1/2 w-full">
@@ -44,11 +44,11 @@ export default function Services() {
               {industries.map((i) => (
                 <li
                   key={i.name}
-                  className="ml-4 text-slate-700"
+                  className="ml-4 text-cyan-900"
                   data-aos="fade-right"
                   data-aos-delay="150"
                 >
-                  <i className="fa-solid text-blue-400 fa-check-circle"></i>
+                  <i className="fa-solid p-color fa-check-circle"></i>
                   &nbsp;&nbsp; {i.name}
                 </li>
               ))}

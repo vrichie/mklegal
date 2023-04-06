@@ -23,7 +23,7 @@ export default function Team() {
     <div className="bg-gradient-to-r from-cyan-700 to-cyan-900  text-white py-20 lg:px-32 flex items-center justify-center relative overflow-hidden">
       <div className="md:w-full w-11/12 flex items-center lg:flex-row flex-col justify-between  md:gap-10">
         <h2
-          className="text-6xl font- text-center"
+          className="lg:text-6xl text-4xl text-center"
           data-aos="fade-right"
           data-aos-delay="0"
         >
@@ -35,7 +35,7 @@ export default function Team() {
               key={index}
               id="tile"
               data-aos="fade-up"
-              className={` rounded-xl relative overflow-hidden h-[300px]  lg:w-[300px] w-full ${
+              className={` rounded-xl relative overflow-hidden lg:h-[300px] h-fit  lg:w-[300px] w-full ${
                 tiles.length === index + 1 ? "mb-0" : " md:mb-0 mb-5"
               }  
               
@@ -45,12 +45,12 @@ export default function Team() {
               {" "}
               <span
                 // id="tile-image"
-                className=" h-full w-full"
+                className=" lg:h-full w-full"
               >
                 <img
                   src={tile.image}
                   alt={tile.name}
-                  className="h-full w-full object-cover"
+                  className="lg:h-full w-full object-cover"
                 />
               </span>
               <span
@@ -61,7 +61,9 @@ export default function Team() {
                   {tile.name}
                 </h5>
 
-                <p className="text-xs mt-1">{tile.description}</p>
+                <p className="text-xs text-slate-100 mt-1">
+                  {tile.description}
+                </p>
               </span>
             </div>
           ))}

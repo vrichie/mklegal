@@ -32,7 +32,7 @@ const Focus = () => {
     <div className="bg-gradient-to-r from-cyan-700 to-cyan-900 text-white py-20 lg:px-32 flex items-center justify-center">
       <div className="md:w-full w-11/12 flex items-center lg:flex-row flex-col justify-between  md:gap-10">
         <h2
-          className="text-6xl  text-center"
+          className="lg:text-6xl text-4xl  text-center"
           data-aos="fade-right"
           data-aos-delay="50"
         >

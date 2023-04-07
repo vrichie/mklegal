@@ -41,7 +41,12 @@ const Navbar = () => {
           >
             
           </h1> */}
-          <img src="./logo_black.png" className="h-[40px]" alt="" />
+          <img
+            src="./logo_black.png"
+            className="h-[40px]"
+            loading="lazy"
+            alt="MK legal"
+          />
         </Link>
         {/* <ul
           // style={color ? opaque : transparent}

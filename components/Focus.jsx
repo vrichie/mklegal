@@ -5,25 +5,25 @@ const tiles = [
     name: "Child Custody",
     description:
       "We offer expert legal advice and representation for child custody cases, helping you protect the best interests of your child.",
-    image: "/mkl1.jpg",
+    image: "/child.jpg",
   },
   {
     name: "Divorce",
     description:
       "Our experienced divorce lawyers provide compassionate support and guidance through every step of the divorce process.",
-    image: "/mkl2.jpg",
+    image: "/divorce.jpg",
   },
   {
     name: "Estate Planning",
     description:
       "Our estate planning services help you ensure that your assets are distributed according to your wishes and your loved ones are taken care of.",
-    image: "/mkl3.jpg",
+    image: "/estate.jpg",
   },
   {
     name: "Personal Injury",
     description:
       "If you've been injured due to someone else's negligence, we can help you get the compensation you deserve.",
-    image: "/mkl4.jpg",
+    image: "/accident.jpg",
   },
 ];
 
@@ -69,6 +69,7 @@ const Focus = () => {
                   src={tile.image}
                   alt={tile.image}
                   className="h-full w-full object-cover"
+                  loading="lazy"
                 />
               </span>
             </div>

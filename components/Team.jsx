@@ -50,6 +50,7 @@ export default function Team() {
                 <img
                   src={tile.image}
                   alt={tile.name}
+                  loading="lazy"
                   className="lg:h-full w-full object-cover"
                 />
               </span>

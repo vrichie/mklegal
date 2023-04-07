@@ -35,6 +35,7 @@ const About = () => {
             data-aos-delay="50"
             className="lg:w-[400px] w-full"
             alt="Mkl"
+            loading="lazy"
           />
         </div>
       </section>

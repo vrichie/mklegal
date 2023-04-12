@@ -41,7 +41,7 @@ export default function Testimonial() {
                 testimony.length === index + 1 ? "mb-0" : "lg:mb-0 mb-5"
               }`}
             >
-              <i class="fa-solid fa-quote-left text-cyan-900 text-lg"></i>
+              <i className="fa-solid fa-quote-left text-cyan-900 text-lg"></i>
               <br />
               <br />
               <p>{test.text}</p>

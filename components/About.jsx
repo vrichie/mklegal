@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -11,22 +12,26 @@ const About = () => {
           <br />
           <br />
           <p className="" data-aos="fade-up" data-aos-delay="50">
-            At MK Legal multi-national companies, local entrepreneurs and pro
-            bono clients can expect the same level of world class legal services
-            delivered with the highest ethical standards. As a full-service
-            commercial law firm in Nairobi we strive for excellence in
-            everything we do.
+            Our client can expect world class legal services delivered with keen
+            attention to their business and personal needs.
           </p>
           <p data-aos="fade-up" data-aos-delay="100">
-            And we pride ourselves on our in-depth knowledge and experience.The
+            As a full-service commercial law firm in Nairobi we strive for
+            excellence in everything we do.
+          </p>
+          <p data-aos="fade-up" data-aos-delay="100">
+            We pride ourselves on our in-depth knowledge and experience. The
             firm has received recognition for its excellence and was a nomine in
             the SME law firm of the Year Category 2022 of the Nairobi Legal
             Awards.
           </p>
           <br />
-          <button data-aos="fade-up" data-aos-delay="150">
-            Get In Touch
-          </button>
+          <Link href="#contacts">
+            <button>
+              {" "}
+              <span>GET IN TOUCH</span>{" "}
+            </button>
+          </Link>
         </span>
         <div className="lg:w-fit w-full md:mb-0 mb-10">
           <img

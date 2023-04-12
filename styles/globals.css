@@ -20,17 +20,6 @@ body {
 
 /* contact form styles */
 
-label {
-  margin-bottom: 5px;
-  color: #ea580c;
-}
-input {
-  border-bottom: 2px solid #ea5a0cb7;
-  padding: 8px;
-  width: 300px;
-  background-color: transparent;
-  outline: none;
-}
 h2 {
   font-size: 52px;
 }
@@ -41,10 +30,67 @@ h3 {
   color: #0d8182;
 }
 button {
-  padding: 8px 32px;
-  color: white;
-  background-color: #0d8182;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  /* padding: 8px 32px; */
+  background: #0d8182;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border: none;
 }
+
+button:after {
+  content: " ";
+  width: 0%;
+  height: 100%;
+  background: white;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+
+button:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+button span {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 8px 18px;
+  color: white;
+  font-size: 14px;
+  /* font-weight: 700; */
+  /* letter-spacing: 0.3em; */
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover span {
+  color: #0d8182;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 p {
   font-size: 17px;
   color: rgb(0, 0, 0);

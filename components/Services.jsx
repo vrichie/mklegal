@@ -4,15 +4,14 @@ export default function Services() {
   const industries = [
     { name: "Construction and Infrastructure" },
     { name: "Real Estate" },
-    { name: "Consumer and Manufactured Goods" },
-    { name: "Energy and Natural Resources" },
-    { name: "Financial Institutions" },
-    { name: "Insurance" },
+    { name: "Company Laws" },
+    { name: "Financial Services and Banking Law" },
+    { name: "Tax Law" },
     { name: "Public Sector" },
-    { name: "Transportation" },
-    { name: "Telecommunications" },
-    { name: "Media and Entertainment" },
-    { name: "Technology" },
+    { name: "Employment and Labour Disputes" },
+    { name: "Immigration Law" },
+    { name: "Media and Entertainment Law" },
+    { name: "Technology And Intellectual Property Law" },
   ];
   return (
     <div className="w-full relative overflow-hidden flex items-center justify-center py-36">
@@ -23,15 +22,13 @@ export default function Services() {
 
         <div className="w-11/12 flex lg:flex-row flex-col items-start justify-between">
           <h2 data-aos="fade-up" data-aos-delay="50" className="p-color">
-            Our Main <i>Services</i>{" "}
+            Scope Of <i>Work</i>{" "}
           </h2>
           <span className="lg:w-1/2 w-full">
             <p data-aos="fade-up" data-aos-delay="100">
-              At MK Legal, we&apos;re dedicated to providing exceptional legal
-              services in a wide range of practice areas. From complex business
-              transactions to sensitive family matters, our experienced
-              attorneys are here to help. We believe in personalized attention
-              and tailored legal solutions.
+              From complex business transactions to sensitive family matters,
+              our experienced Attorneys are able to offer legal solutions in
+              several key industry sectors including:
             </p>
             <br />
             <p data-aos="fade-up" data-aos-delay="120">

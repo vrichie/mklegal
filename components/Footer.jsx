@@ -3,7 +3,10 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-cyan-900 text-white py-20 flex items-center justify-center">
+    <footer
+      id="contacts"
+      className="w-full bg-cyan-900 text-white py-20 flex items-center justify-center"
+    >
       <div className="md:w-4/5 w-11/12 flex items-start justify-between lg:flex-row flex-col ">
         <span className=" lg:w-1/3 w-full">
           <Link href="/">
@@ -12,7 +15,7 @@ export default function Footer() {
               data-aos="fade-up"
               data-aos-delay="0"
             >
-              Mkl legal
+              Mk legal
             </h1>
           </Link>
           <br />
@@ -69,22 +72,24 @@ export default function Footer() {
                 data-aos-delay="50"
               >
                 <i class="fa-solid fa-phone"></i>&nbsp;&nbsp;
-                <a href="tel:+254723233994">
-                  <p className="text-slate-50">(254) 723233994</p>
+                <a href="tel:+254797747689">
+                  <p className="text-slate-50">(254) 797747689</p>
                 </a>
               </div>
               <br />
+
               <div
                 className="text-white flex items-center"
                 data-aos="fade-up"
                 data-aos-delay="50"
               >
-                <i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;
-                <a href="mailto:makena@mklegal.co.ke">
-                  <p className="text-slate-50">makena@mklegal.co.ke</p>
+                <i class="fa-brands fa-whatsapp"></i>&nbsp;&nbsp;
+                <a href="https://wa.me/254797747689">
+                  <p className="text-slate-50">Whatsapp Message</p>
                 </a>
               </div>
               <br />
+
               <div
                 className="text-white flex items-center"
                 data-aos="fade-up"

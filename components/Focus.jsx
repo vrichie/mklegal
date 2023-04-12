@@ -2,28 +2,28 @@ import React, { useState } from "react";
 
 const tiles = [
   {
-    name: "Child Custody",
+    name: "Family Law & Estate Planning",
     description:
       "We offer expert legal advice and representation for child custody cases, helping you protect the best interests of your child.",
     image: "/child.jpg",
   },
   {
-    name: "Divorce",
+    name: "Company Law & Technology",
     description:
       "Our experienced divorce lawyers provide compassionate support and guidance through every step of the divorce process.",
     image: "/divorce.jpg",
   },
   {
-    name: "Estate Planning",
+    name: "Real Estate",
     description:
       "Our estate planning services help you ensure that your assets are distributed according to your wishes and your loved ones are taken care of.",
     image: "/estate.jpg",
   },
   {
-    name: "Personal Injury",
+    name: "Intellectual Property Law",
     description:
       "If you've been injured due to someone else's negligence, we can help you get the compensation you deserve.",
-    image: "/accident.jpg",
+    image: "/copyright.jpg",
   },
 ];
 
@@ -59,7 +59,7 @@ const Focus = () => {
                 <h3 className="text-cyan-900 font-normal">{tile.name}</h3>
                 <br />
 
-                <p>{tile.description}</p>
+                {/* <p>{tile.description}</p> */}
               </span>
               <span
                 id="tile-image"

@@ -29,7 +29,7 @@ export default function Home() {
       <Navbar />
       <Hero
         heading=" Welcome to MK Legal "
-        message="MK Legal is a top commercial law firm in Nairobi, delivering world-class legal services to multi-national companies, local entrepreneurs, and pro bono clients. Our experienced team of lawyers is committed to upholding the highest ethical standards and achieving the best possible outcomes for our clients."
+        message="MK Legal is a top commercial law firm in Nairobi, delivering world-class legal services to individuals, multi-national companies, local entrepreneurs and pro-bono clients. Our experienced team of lawyers are committed to upholding the highest ethical standards and achieving the best possible outcomes for our clients."
       />
       <About />
       <Focus />

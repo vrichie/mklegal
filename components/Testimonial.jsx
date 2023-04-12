@@ -7,11 +7,11 @@ export default function Testimonial() {
       text: "I was in a difficult child custody battle and the team at the law firm helped me every step of the way. Their expertise and guidance made all the difference.",
     },
     {
-      name: "Jane Smith",
+      name: "Michael Olang",
       text: "I couldn't have asked for a better team to represent me in my divorce case. They were professional, compassionate, and dedicated to getting me the best possible outcome.",
     },
     {
-      name: "Bob Johnson",
+      name: "John Irungu",
       text: "After my car accident, the law firm helped me get the compensation I needed to cover my medical expenses and lost wages. I am so grateful for their help.",
     },
   ];

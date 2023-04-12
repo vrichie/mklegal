@@ -25,9 +25,12 @@ const Hero = ({ heading, message }) => {
             {message}
           </p>
           <br />
-          <button data-aos="fade-up" data-aos-delay="100">
-            GET IN TOUCH
-          </button>
+          <Link href="#contacts">
+            <button>
+              {" "}
+              <span>GET IN TOUCH</span>{" "}
+            </button>
+          </Link>
         </div>
       </div>
     </div>

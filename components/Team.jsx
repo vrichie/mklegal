@@ -26,35 +26,31 @@ export default function Team() {
   return (
     <div className="bg-gradient-to-r from-cyan-700 to-cyan-900  text-white py-20 lg:px-32 flex items-center justify-center relative overflow-hidden">
       <div className="md:w-full w-11/12 flex items-center lg:flex-row flex-col justify-between  md:gap-10">
-        <h2
-          className="lg:text-6xl text-4xl text-center"
-          data-aos="fade-right"
-          data-aos-delay="0"
-        >
+        <h2 className="lg:text-6xl text-4xl text-center" data-aos="fade-right">
           Introducing <br /> Our <i>Team</i> Of Experts
         </h2>
-        <div className="w-full md:w-2/3 flex flex-wrap  lg:justify-between justify-center md:flex-row flex-col mt-10">
+        <div
+          className="w-full md:w-2/3 mt-10 grid gap-5 md:grid-cols-2 grid-cols-1"
+          data-aos="fade-up"
+        >
           {tiles.map((tile, index) => (
-            <Link key={index} href={tile.link} target="_blank">
-              {" "}
+            <Link
+              key={index}
+              href={tile.link}
+              target="_blank"
+              className={`flex 
+              ${index === 0 ? "md:col-span-2 justify-center " : "col-span-1"}
+              ${index === 1 ? "justify-end" : " "}
+              
+              
+              `}
+            >
               <div
                 id="tile"
-                data-aos="fade-up"
-                className={` relative rounded-xl cursor-pointer overflow-hidden lg:h-[300px] h-fit  lg:w-[300px] w-full ${
-                  tiles.length === index + 1 ? "mb-0" : " md:mb-0 mb-5"
-                }  
-              
-              
-              flex  items-center justify-center cursor-pointer text-center relative md:mt-3 mt-0`}
+                className={`relative rounded-xl cursor-pointer overflow-hidden lg:h-[300px] h-fit lg:w-[300px] w-full 
+                ${tiles.length === index + 1 ? "mb-0" : "md:mb-0 mb-5"}`}
               >
-                {" "}
-                {/* <a href="http://" className="z-[20] top-4 right-4 absolute">
-                  <i className="text-xl fa-brands fa-linkedin"></i>
-                </a> */}
-                <span
-                  // id="tile-image"
-                  className=" lg:h-full w-full"
-                >
+                <span className="lg:h-full w-full">
                   <img
                     src={tile.image}
                     alt={tile.name}
@@ -62,14 +58,10 @@ export default function Team() {
                     className="lg:h-full w-full object-cover"
                   />
                 </span>
-                <span
-                  // id="tile-team-text"
-                  className=" px-3 py-1 text-left duration-300   absolute bottom-1 right-0 bg-cyan-900   rounded-tl-xl rounded-bl-xl   "
-                >
+                <span className="px-3 py-1 text-left duration-300 absolute bottom-1 right-0 bg-cyan-900 rounded-tl-xl rounded-bl-xl">
                   <h5 className="text-cyan-50 border-b-[1px] border-cyan-100 font-normal">
                     {tile.name}
                   </h5>
-
                   <p className="text-xs text-slate-100 mt-1">
                     {tile.description}
                   </p>

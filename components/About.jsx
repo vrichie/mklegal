@@ -11,18 +11,18 @@ const About = () => {
           </h2>
           <br />
           <br />
-          <p className="" data-aos="fade-up" data-aos-delay="50">
+          <p className="" data-aos="fade-up">
             Our client can expect world class legal services delivered with keen
             attention to their business and personal needs.
           </p>
-          <p data-aos="fade-up" data-aos-delay="100">
+          <p data-aos="fade-up">
             As a full-service commercial law firm in Nairobi we strive for
             excellence in everything we do.
           </p>
-          <p data-aos="fade-up" data-aos-delay="100">
+          <p data-aos="fade-up">
             We pride ourselves on our in-depth knowledge and experience. The
-            firm has received recognition for its excellence and was a nomine in
-            the SME law firm of the Year Category 2022 of the Nairobi Legal
+            firm has received recognition for its excellence and was a nominee
+            in the SME Law Firm of the Year Category 2022 of the Nairobi Legal
             Awards.
           </p>
           <br />
@@ -37,7 +37,6 @@ const About = () => {
           <img
             src="/about.jpg"
             data-aos="zoom-in"
-            data-aos-delay="50"
             className="lg:w-[400px] w-full"
             alt="Mkl"
             loading="lazy"

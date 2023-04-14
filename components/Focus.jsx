@@ -8,7 +8,7 @@ const tiles = [
     image: "/child.jpg",
   },
   {
-    name: "Company Law & Technology",
+    name: "Company Law ",
     description:
       "Our experienced divorce lawyers provide compassionate support and guidance through every step of the divorce process.",
     image: "/divorce.jpg",
@@ -31,11 +31,7 @@ const Focus = () => {
   return (
     <div className="bg-gradient-to-r from-cyan-700 to-cyan-900 text-white py-20 lg:px-32 flex items-center justify-center">
       <div className="md:w-full w-11/12 flex items-center lg:flex-row flex-col justify-between  md:gap-10">
-        <h2
-          className="lg:text-6xl text-4xl  text-center"
-          data-aos="fade-right"
-          data-aos-delay="50"
-        >
+        <h2 className="lg:text-6xl text-4xl  text-center" data-aos="fade-right">
           What we <br />
           <i>Focus</i> On
         </h2>

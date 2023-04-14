@@ -15,7 +15,7 @@ export default function Footer() {
               data-aos="fade-up"
               data-aos-delay="0"
             >
-              Mk legal
+              MK Legal
             </h1>
           </Link>
           <br />
@@ -59,10 +59,11 @@ export default function Footer() {
                 data-aos="fade-up"
                 data-aos-delay="25"
               >
-                <i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;
+                <i className="fa-solid fa-location-dot"></i>&nbsp;&nbsp;
                 <p className="text-slate-50">
-                  1st Floor Southern Tower <br />
-                  Two Rivers Nairobi ,Kenya
+                  1st Floor, Southern Tower <br />
+                  Two Rivers Lifestyle Centre, Limuru Road <br />
+                  P.O. Box 63109 - 00604, Nairobi, Kenya
                 </p>
               </div>
               <br />
@@ -71,7 +72,7 @@ export default function Footer() {
                 data-aos="fade-up"
                 data-aos-delay="50"
               >
-                <i class="fa-solid fa-phone"></i>&nbsp;&nbsp;
+                <i className="fa-solid fa-phone"></i>&nbsp;&nbsp;
                 <a href="tel:+254797747689">
                   <p className="text-slate-50">(254) 797747689</p>
                 </a>
@@ -83,7 +84,7 @@ export default function Footer() {
                 data-aos="fade-up"
                 data-aos-delay="50"
               >
-                <i class="fa-brands fa-whatsapp"></i>&nbsp;&nbsp;
+                <i className="fa-brands fa-whatsapp"></i>&nbsp;&nbsp;
                 <a href="https://wa.me/254797747689">
                   <p className="text-slate-50">Whatsapp Message</p>
                 </a>
@@ -95,7 +96,7 @@ export default function Footer() {
                 data-aos="fade-up"
                 data-aos-delay="50"
               >
-                <i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;
+                <i className="fa-solid fa-envelope"></i>&nbsp;&nbsp;
                 <a href="mailto:info@mklegal.co.ke">
                   <p className="text-slate-50">info@mklegal.co.ke</p>
                 </a>
